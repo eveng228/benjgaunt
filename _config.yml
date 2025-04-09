@@ -1,0 +1,27 @@
+title: benjgaunt
+description: >-
+  A blog powered by Jekyll and the Chirpy theme.
+
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Europe/London
+
+url: "https://benjgaunt.com"
+baseurl: "" # leave this empty for root domain
+
+author:
+  name: Benj Gaunt
+  email: you@example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num"
